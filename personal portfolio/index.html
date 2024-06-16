@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="portfolio-container">
+          <ul class="navlist">
+
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Work</a></li>
+           <li><a href="#">About</a></li>
+           <li><a href="#">Project</a></li>
+           <li><a href="#">Service</a></li>
+           
+          </ul>
+
+          <div class="left-container">
+            <div class="icons">
+                <a href="https://www.facebook.com/prawina.nepal.9" target="_blank">
+                    <i class="fa-brands fa-facebook-f"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/prabina-nepal-7aa715289/" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </a>
+                
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-codepen"></i>
+            </div>
+
+            <div class="content">
+                <p class="intro">Hi! I am <span>Prawina Nepal</span> </p>
+                <h1>Web Developer.</h1>
+                <p class="detail">With a background in Ethical Hacking and Cyber Security, I bring a unique perspective to web development.
+                    My expertise lies in crafting responsive and visually appealing websites, while ensuring robust security measures are
+                    in place to protect digital assets.
+                    I am dedicated to creating user-friendly web experiences that are both aesthetically pleasing and secure.
+                    Throughout my academic journey, I have honed my skills in identifying and mitigating cyber threats. 
+                    My goal is to contribute to safeguarding digital infrastructures while delivering 
+                    high-quality web solutions.
+                    
+                   </p>
+            <div class="btn-container">
+                <button>Hire Me</button>
+                <button onclick="openPDF()">View CV</button>
+                
+            </div>
+            </div>
+
+             
+          </div>
+          <div class="right-container"></div>
+
+          <div class="design">
+            <div class="circle"></div>
+            <div class="circle"></div>
+          </div>
+
+
+    </div>
+
+    <script>
+        function openPDF() {
+            window.open('prawinaCV.pdf', '_blank');
+        }
+    </script>
+</body>
+</html>
